@@ -1,0 +1,95 @@
+fileFormatVersion: 2
+guid: 1ba96dc1226b7944b9bd149c1bc88018
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: _Floor Wood
+    100002: _Glass
+    100004: _Wall Green Geometric
+    100006: _white
+    100008: _wood
+    100010: //RootNode
+    100012: Jardini__re
+    100014: Jardini__re Terre
+    400000: _Floor Wood
+    400002: _Glass
+    400004: _Wall Green Geometric
+    400006: _white
+    400008: _wood
+    400010: //RootNode
+    400012: Jardini__re
+    400014: Jardini__re Terre
+    2300000: _Floor Wood
+    2300002: _Glass
+    2300004: _Wall Green Geometric
+    2300006: _white
+    2300008: _wood
+    2300010: Jardini__re
+    2300012: Jardini__re Terre
+    3300000: _Floor Wood
+    3300002: _Glass
+    3300004: _Wall Green Geometric
+    3300006: _white
+    3300008: _wood
+    3300010: Jardini__re
+    3300012: Jardini__re Terre
+    4300000: _Wall Green Geometric
+    4300002: _wood
+    4300004: _Floor Wood
+    4300006: _white
+    4300008: Jardini__re
+    4300010: Jardini__re Terre
+    4300012: _Glass
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

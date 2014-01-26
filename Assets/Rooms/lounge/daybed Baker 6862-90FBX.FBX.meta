@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 65c5d601d9b03fe46b2683ec054ff0ac
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ______
+    100002: ______________ ____________ 1 01
+    100004: ______________ ____________ 1 02
+    100006: ______________ ____________ 2 01
+    100008: ______________ ____________ 2 02
+    100010: Box01
+    100012: Box02
+    100014: Box06original
+    100016: daybed Baker 6862-90
+    100018: //RootNode
+    100020: Line01
+    100022: Line01_MeshPart0
+    100024: Line01_MeshPart1
+    100026: Line02
+    100028: Line03
+    100030: Line04
+    100032: Line05
+    100034: Line05original01
+    100036: Line07original
+    100038: VRayLight01
+    100040: VRayLight02
+    100042: VRayLight03
+    100044: VRayLight04
+    100046: VRayLight06
+    100048: VRayLight07
+    100050: VRayLight08
+    100052: VRayPhysicalCamera01
+    100054: VRayPhysicalCamera01.Target
+    400000: ______
+    400002: ______________ ____________ 1 01
+    400004: ______________ ____________ 1 02
+    400006: ______________ ____________ 2 01
+    400008: ______________ ____________ 2 02
+    400010: Box01
+    400012: Box02
+    400014: Box06original
+    400016: daybed Baker 6862-90
+    400018: //RootNode
+    400020: Line01
+    400022: Line01_MeshPart0
+    400024: Line01_MeshPart1
+    400026: Line02
+    400028: Line03
+    400030: Line04
+    400032: Line05
+    400034: Line05original01
+    400036: Line07original
+    400038: VRayLight01
+    400040: VRayLight02
+    400042: VRayLight03
+    400044: VRayLight04
+    400046: VRayLight06
+    400048: VRayLight07
+    400050: VRayLight08
+    400052: VRayPhysicalCamera01
+    400054: VRayPhysicalCamera01.Target
+    2300000: ______
+    2300002: ______________ ____________ 1 01
+    2300004: ______________ ____________ 1 02
+    2300006: ______________ ____________ 2 01
+    2300008: ______________ ____________ 2 02
+    2300010: Box01
+    2300012: Box02
+    2300014: Box06original
+    2300016: Line01_MeshPart0
+    2300018: Line01_MeshPart1
+    2300020: Line02
+    2300022: Line03
+    2300024: Line04
+    2300026: Line05
+    2300028: Line05original01
+    2300030: Line07original
+    3300000: ______
+    3300002: ______________ ____________ 1 01
+    3300004: ______________ ____________ 1 02
+    3300006: ______________ ____________ 2 01
+    3300008: ______________ ____________ 2 02
+    3300010: Box01
+    3300012: Box02
+    3300014: Box06original
+    3300016: Line01_MeshPart0
+    3300018: Line01_MeshPart1
+    3300020: Line02
+    3300022: Line03
+    3300024: Line04
+    3300026: Line05
+    3300028: Line05original01
+    3300030: Line07original
+    4300000: ______
+    4300002: Box01
+    4300004: Box06original
+    4300006: Line07original
+    4300008: Line05original01
+    4300010: Line01_MeshPart0
+    4300012: Line01_MeshPart1
+    4300014: Box02
+    4300016: Line02
+    4300018: Line03
+    4300020: Line04
+    4300022: Line05
+    4300024: ______________ ____________ 2 01
+    4300026: ______________ ____________ 1 01
+    4300028: ______________ ____________ 1 02
+    4300030: ______________ ____________ 2 02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

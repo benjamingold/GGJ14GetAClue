@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 63cbaab195904ca439009a3f602c425a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box04
+    100002: Box05
+    100004: cristal
+    100006: cristal_MeshPart0
+    100008: cristal_MeshPart1
+    100010: cristal_MeshPart2
+    100012: cristal_red
+    100014: gold
+    100016: gold_MeshPart0
+    100018: gold_MeshPart1
+    100020: light
+    100022: metal
+    100024: metal_MeshPart0
+    100026: metal_MeshPart1
+    100028: metal_MeshPart2
+    100030: //RootNode
+    400000: Box04
+    400002: Box05
+    400004: cristal
+    400006: cristal_MeshPart0
+    400008: cristal_MeshPart1
+    400010: cristal_MeshPart2
+    400012: cristal_red
+    400014: gold
+    400016: gold_MeshPart0
+    400018: gold_MeshPart1
+    400020: light
+    400022: metal
+    400024: metal_MeshPart0
+    400026: metal_MeshPart1
+    400028: metal_MeshPart2
+    400030: //RootNode
+    2300000: Box04
+    2300002: Box05
+    2300004: cristal_MeshPart0
+    2300006: cristal_MeshPart1
+    2300008: cristal_MeshPart2
+    2300010: cristal_red
+    2300012: gold_MeshPart0
+    2300014: gold_MeshPart1
+    2300016: light
+    2300018: metal_MeshPart0
+    2300020: metal_MeshPart1
+    2300022: metal_MeshPart2
+    3300000: Box04
+    3300002: Box05
+    3300004: cristal_MeshPart0
+    3300006: cristal_MeshPart1
+    3300008: cristal_MeshPart2
+    3300010: cristal_red
+    3300012: gold_MeshPart0
+    3300014: gold_MeshPart1
+    3300016: light
+    3300018: metal_MeshPart0
+    3300020: metal_MeshPart1
+    3300022: metal_MeshPart2
+    4300000: Box04
+    4300002: Box05
+    4300004: cristal_MeshPart0
+    4300006: cristal_MeshPart1
+    4300008: cristal_MeshPart2
+    4300010: cristal_red
+    4300012: gold_MeshPart0
+    4300014: gold_MeshPart1
+    4300016: light
+    4300018: metal_MeshPart0
+    4300020: metal_MeshPart1
+    4300022: metal_MeshPart2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

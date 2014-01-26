@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 527c2d6812872cc4c8f8bc5367e567d5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ' Extrusion [1454]'
+    100002: ' Revolve [1484]'
+    100004: ' Revolve [1600]'
+    100006: ' Revolve [1906]'
+    100008: ' Revolve [2601]'
+    100010: ' Sweep [1624]'
+    100012: ' Sweep [1747]'
+    100014: ' Sweep [1850]'
+    100016: ' Sweep [1860]'
+    100018: ' Sweep [1926]'
+    100020: ' Sweep [2213]'
+    100022: ' Sweep [2393]'
+    100024: ' Sweep [2406]'
+    100026: ' Sweep [2469]'
+    100028: ' Sweep [2482]'
+    100030: ' Sweep [2495]'
+    100032: ' Sweep [2508]'
+    100034: '3D View: {3D}'
+    100036: //RootNode
+    100038: Floor Floor 1 [246]
+    400000: ' Extrusion [1454]'
+    400002: ' Revolve [1484]'
+    400004: ' Revolve [1600]'
+    400006: ' Revolve [1906]'
+    400008: ' Revolve [2601]'
+    400010: ' Sweep [1624]'
+    400012: ' Sweep [1747]'
+    400014: ' Sweep [1850]'
+    400016: ' Sweep [1860]'
+    400018: ' Sweep [1926]'
+    400020: ' Sweep [2213]'
+    400022: ' Sweep [2393]'
+    400024: ' Sweep [2406]'
+    400026: ' Sweep [2469]'
+    400028: ' Sweep [2482]'
+    400030: ' Sweep [2495]'
+    400032: ' Sweep [2508]'
+    400034: '3D View: {3D}'
+    400036: //RootNode
+    400038: Floor Floor 1 [246]
+    2300000: ' Extrusion [1454]'
+    2300002: ' Revolve [1484]'
+    2300004: ' Revolve [1600]'
+    2300006: ' Revolve [1906]'
+    2300008: ' Revolve [2601]'
+    2300010: ' Sweep [1624]'
+    2300012: ' Sweep [1747]'
+    2300014: ' Sweep [1850]'
+    2300016: ' Sweep [1860]'
+    2300018: ' Sweep [1926]'
+    2300020: ' Sweep [2213]'
+    2300022: ' Sweep [2393]'
+    2300024: ' Sweep [2406]'
+    2300026: ' Sweep [2469]'
+    2300028: ' Sweep [2482]'
+    2300030: ' Sweep [2495]'
+    2300032: ' Sweep [2508]'
+    2300034: Floor Floor 1 [246]
+    3300000: ' Extrusion [1454]'
+    3300002: ' Revolve [1484]'
+    3300004: ' Revolve [1600]'
+    3300006: ' Revolve [1906]'
+    3300008: ' Revolve [2601]'
+    3300010: ' Sweep [1624]'
+    3300012: ' Sweep [1747]'
+    3300014: ' Sweep [1850]'
+    3300016: ' Sweep [1860]'
+    3300018: ' Sweep [1926]'
+    3300020: ' Sweep [2213]'
+    3300022: ' Sweep [2393]'
+    3300024: ' Sweep [2406]'
+    3300026: ' Sweep [2469]'
+    3300028: ' Sweep [2482]'
+    3300030: ' Sweep [2495]'
+    3300032: ' Sweep [2508]'
+    3300034: Floor Floor 1 [246]
+    4300000: Floor Floor 1 [246]
+    4300002: ' Extrusion [1454]'
+    4300004: ' Revolve [1484]'
+    4300006: ' Revolve [1600]'
+    4300008: ' Sweep [1624]'
+    4300010: ' Sweep [1747]'
+    4300012: ' Sweep [1850]'
+    4300014: ' Sweep [1860]'
+    4300016: ' Revolve [1906]'
+    4300018: ' Sweep [1926]'
+    4300020: ' Sweep [2213]'
+    4300022: ' Sweep [2393]'
+    4300024: ' Sweep [2406]'
+    4300026: ' Sweep [2469]'
+    4300028: ' Sweep [2482]'
+    4300030: ' Sweep [2495]'
+    4300032: ' Sweep [2508]'
+    4300034: ' Revolve [2601]'
+    6400000: ' Extrusion [1454]'
+    6400002: ' Revolve [1484]'
+    6400004: ' Revolve [1600]'
+    6400006: ' Revolve [1906]'
+    6400008: ' Revolve [2601]'
+    6400010: ' Sweep [1624]'
+    6400012: ' Sweep [1747]'
+    6400014: ' Sweep [1850]'
+    6400016: ' Sweep [1860]'
+    6400018: ' Sweep [1926]'
+    6400020: ' Sweep [2213]'
+    6400022: ' Sweep [2393]'
+    6400024: ' Sweep [2406]'
+    6400026: ' Sweep [2469]'
+    6400028: ' Sweep [2482]'
+    6400030: ' Sweep [2495]'
+    6400032: ' Sweep [2508]'
+    6400034: Floor Floor 1 [246]
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .150000006
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
