@@ -9,9 +9,13 @@
 
 private var _nextPassage = '';
 
+function Start() {
+  Debug.Log('foo|bar'.Split("|"[0])[1]);
+}
+
 // Change scenes
 function NewRoom(passageName : String) {
-  _nextPassage = passageName;
+  _nextPassage = passageName.Split("|" [0])[1];
   passageName = passageName.Replace(' ', '');
   Application.LoadLevel(passageName);
 }
