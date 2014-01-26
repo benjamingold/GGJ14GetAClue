@@ -333,7 +333,7 @@ Tiddler
 p112
 (dp113
 g19
-V[[When angry, I strike. The other man will not see me coming.|library 1]]\u000a\u000a[[When angry, I forgive. The only person I will end up hurting is myself.|billiard room 1]]\u000a\u000a[[When angry, I am immobilized. I cannot react.|dining room 1]]
+V[[When angry, I strike. The other person will not see me coming.|library 1]]\u000a\u000a[[When angry, I forgive. The only person I will end up hurting is myself.|billiard room 1]]\u000a\u000a[[When angry, I am immobilized. I cannot react.|dining room 1]]
 p114
 sg21
 Vleave the room
@@ -342,12 +342,12 @@ sg23
 g24
 ((I2014
 I1
-I25
-I22
-I44
+I26
 I16
-I5
-I25
+I40
+I44
+I6
+I26
 I0
 tp116
 (dp117
@@ -441,7 +441,7 @@ Tiddler
 p146
 (dp147
 g19
-V[[The room looks like it has been bathed in violence|red hue]]\u000a\u000a[[There is a placid sort of piece here, but something is amiss.|blue hue]]
+V[[The room looks like it has been bathed in violence|red hue]]\u000a\u000a[[There is a placid sort of peace here, but something is amiss.|blue hue]]
 p148
 sg21
 Vestablishment of color
@@ -451,9 +451,9 @@ g24
 ((I2014
 I1
 I26
-I14
-I48
-I47
+I16
+I38
+I33
 I6
 I26
 I0
@@ -921,7 +921,7 @@ Tiddler
 p296
 (dp297
 g19
-V<<set $height_tall = "yes">>\u000a\u000a[[The weight feels welcome off my shoulders|Question About Glasses]]
+V<<set $height_tall = "yes">>\u000a\u000a[[The weight feels welcome off my shoulders.|Question About Glasses]]
 p298
 sg21
 Vheight qualifier
@@ -930,12 +930,12 @@ sg23
 g24
 ((I2014
 I1
-I25
+I26
+I16
+I46
 I20
-I32
-I52
-I5
-I25
+I6
+I26
 I0
 tp300
 (dp301
@@ -973,7 +973,7 @@ Tiddler
 p312
 (dp313
 g19
-VThe light comes on. \u000a[[The room is bathed in light|establishment of color]]
+VThe light comes on. [[The room is bathed in light.|establishment of color]]
 p314
 sg21
 Vsight qualifier 2
@@ -982,12 +982,12 @@ sg23
 g24
 ((I2014
 I1
-I25
-I20
-I40
 I26
-I5
-I25
+I16
+I45
+I30
+I6
+I26
 I0
 tp316
 (dp317
@@ -1075,7 +1075,7 @@ Tiddler
 p343
 (dp344
 g19
-V<<set $color_red = "yes">>\u000a\u000aSomething has happened here. The air moves with pent up static energy, the air heavy and warm. \u000a\u000a[[I am permeated by it.|establishing shot]]
+V<<set $color_red = "yes">>\u000a\u000aSomething happened here. The air moves with pent-up static energy, the air heavy and warm. \u000a\u000a[[It permeates me.|establishing shot]]
 p345
 sg21
 Vred hue
@@ -1084,12 +1084,12 @@ sg23
 g24
 ((I2014
 I1
-I25
-I20
-I45
-I25
-I5
-I25
+I26
+I16
+I46
+I48
+I6
+I26
 I0
 tp347
 (dp348
@@ -1125,7 +1125,7 @@ Tiddler
 p358
 (dp359
 g19
-V<<set $color_blue = "yes">>\u000a\u000aI can feel the unrest heavy on the air. Something has happened here. \u000a\u000a[[I am permeated by it|establishing shot]]
+V<<set $color_blue = "yes">>\u000a\u000aI can feel the unrest heavy on the air. Something happened here. \u000a\u000a[[I am permeated by it.|establishing shot]]
 p360
 sg21
 Vblue hue
@@ -1134,12 +1134,12 @@ sg23
 g24
 ((I2014
 I1
-I25
-I20
-I57
-I53
-I5
-I25
+I26
+I16
+I48
+I51
+I6
+I26
 I0
 tp362
 (dp363
@@ -1222,14 +1222,14 @@ I00
 sg13
 (lp389
 F636.3333333333334
-aF281.6666666666665
+aF279.99999999999983
 asg15
 (itiddlywiki
 Tiddler
 p390
 (dp391
 g19
-V<<set $old_age = "yes">>\u000a\u000aThe place feels like it has fallen out of time, a preserved piece that fades into memory even as I watch. \u000a\u000a[[I cannot pull away|leave the room]] 
+V<<set $old_age = "yes">>\u000a\u000aThe place feels like it has fallen out of time, a preserved scene that fades from memory as I watch.\u000a\u000a[[I cannot pull away.|leave the room]] 
 p392
 sg21
 Vold age
@@ -1238,12 +1238,12 @@ sg23
 g24
 ((I2014
 I1
-I25
-I21
-I17
-I23
-I5
-I25
+I26
+I16
+I49
+I27
+I6
+I26
 I0
 tp394
 (dp395
@@ -2356,18 +2356,18 @@ tp745
 Rp746
 sbsa(dp747
 g12
-I00
+I01
 sg13
 (lp748
 F472.66666666666674
-aF1290.75
+aF1289.0833333333333
 asg15
 (itiddlywiki
 Tiddler
 p749
 (dp750
 g19
-V<<set $detective = $detective + 1>>\u000a\u000aIt always astonishes me how clearly we have tied scent to memory. But I can't dwell on that now. \u000a\u000a[[A splash of red on white catches my attention.|lovenote]]\u000a\u000a[[The night feels like it's coming to a close. There's more to see here.|question 4]]
+V<<set $detective = $detective + 1>>\u000a\u000aIt always astonishes me how clearly we tie scent to memory. But I can't dwell on that now. \u000a\u000a[[A splash of red on white catches my attention.|lovenote]]\u000a\u000a[[The night feels like it's coming to a close. There's more to see here.|question 4]]
 p751
 sg21
 Vlibrary 3.3
@@ -2377,9 +2377,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I46
-I17
+I16
+I55
+I24
 I6
 I26
 I0
@@ -3360,14 +3360,14 @@ I00
 sg13
 (lp1058
 F309.66666666666663
-aF857.6666666666667
+aF856.0000000000001
 asg15
 (itiddlywiki
 Tiddler
 p1059
 (dp1060
 g19
-V<<lookAt folder>>\u000a\u000aThe folder itself barely raises attention, but the first page has the letterhead of a local law firm. \u000a\u000aThe phrase "distribution of assets" stood out in bold letters. The bottom of the page was initialed.\u000a\u000a[[A shiver runs down my spine.|question 3.2]]
+V<<lookAt folder>>\u000a\u000aThe folder itself barely raises attention, but the first page has the letterhead of a local law firm. \u000a\u000aThe phrase "distribution of assets" stands out in bold letters. The bottom of the page is initialed.\u000a\u000a[[A shiver runs down my spine.|question 3.2]]
 p1061
 sg21
 Vfolder
@@ -3377,9 +3377,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I42
-I19
+I16
+I54
+I37
 I6
 I26
 I0
@@ -3471,7 +3471,7 @@ Tiddler
 p1091
 (dp1092
 g19
-V<<lookAt folder3>>\u000aThe folder itself barely raises attention, but the first page has the letterhead of a local law firm. \u000a\u000aThe phrase "distribution of assets" stood out in bold letters. The bottom of the page was initialed.\u000a\u000a[[A shiver runs down my spine.|question 4]]
+V<<lookAt folder3>>\u000aThe folder itself barely raises attention, but the first page has the letterhead of a local law firm. \u000a\u000aThe phrase "distribution of assets" stands out in bold letters. The bottom of the page is initialed.\u000a\u000a[[A shiver runs down my spine.|question 4]]
 p1093
 sg21
 Vfolder3
@@ -3481,9 +3481,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I46
-I46
+I16
+I55
+I8
 I6
 I26
 I0
@@ -3568,14 +3568,14 @@ I00
 sg13
 (lp1122
 F1375.666666666666
-aF572.6666666666664
+aF570.9999999999998
 asg15
 (itiddlywiki
 Tiddler
 p1123
 (dp1124
 g19
-VA life had been lost here, taken rather violently. There was little mystery to who had done it. \u000a\u000a[[I wasn't ready to leave.|Lounge3]]
+VA life lost here, taken rather violently. There was little mystery to who had done it. \u000a\u000a[[I wasn't ready to leave.|Lounge3]]
 p1125
 sg21
 Vballroom identity 3
@@ -3585,9 +3585,9 @@ g24
 ((I2014
 I1
 I26
-I14
 I16
-I22
+I52
+I0
 I6
 I26
 I0
@@ -3679,7 +3679,7 @@ Tiddler
 p1155
 (dp1156
 g19
-VI had forgotten why I had come here, until I saw the chalk outline in the center of the room. \u000a\u000a"Ann"\u000a\u000aThe name sounded like it had slipped from a foreign tongue. But it was my own. \u000a\u000a[[The memory came unbidden. I have to go the lounge.|Lounge]]
+VI had forgotten why I had came here, until I saw the chalk outline in the center of the room. \u000a\u000a"Ann"\u000a\u000aThe name sounded like it had slipped from a foreign tongue. But it was my own. \u000a\u000a[[The memory came unbidden. I have to go the lounge.|Lounge]]
 p1157
 sg21
 Vballroom identity
@@ -3689,9 +3689,9 @@ g24
 ((I2014
 I1
 I26
-I14
-I51
-I22
+I16
+I43
+I17
 I6
 I26
 I0
@@ -3791,7 +3791,7 @@ Tiddler
 p1191
 (dp1192
 g19
-VThe air is fresher here. I can feel the tension fall off of me. It is here that Ann feels the most alive. \u000a\u000a[[The pipe sticks out abruptly from a terra cotta pot.|leadpipe]]\u000a\u000a[[I leave. The memory here is too sweet and too fragile to survive.|Study]]
+VThe air is fresher here. I can feel the tension fall away. It is here that Ann feels the most alive. \u000a\u000a[[The pipe sticks out abruptly from a terra cotta pot.|leadpipe]]\u000a\u000a[[I leave. The memory here is too sweet and too fragile to survive.|Study]]
 p1193
 sg21
 VConservatory
@@ -3801,9 +3801,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I49
-I10
+I16
+I44
+I13
 I6
 I26
 I0
@@ -3899,7 +3899,7 @@ Tiddler
 p1225
 (dp1226
 g19
-V<<lookAt leadpipe>>\u000aI hold the pipe in my hand, it's weight balanced in my hand. \u000a\u000aIt would take just a little pressure to break in someones head. A small price to pay, a small recompense for a broken heart. \u000a\u000a[[Maybe they will understand.|Study]]
+V<<lookAt leadpipe>>\u000aI hold the pipe in my hand, it's weight balanced in my hand. \u000a\u000aIt would take so little to fracture a skull. A small price to pay, a small recompense for a broken heart. \u000a\u000a[[Maybe they will understand.|Study]]
 p1227
 sg21
 Vleadpipe
@@ -3909,9 +3909,9 @@ g24
 ((I2014
 I1
 I26
-I15
+I16
 I48
-I57
+I21
 I6
 I26
 I0
@@ -3953,7 +3953,7 @@ Tiddler
 p1242
 (dp1243
 g19
-VI rest. The room is quiet, the wind still outside. I can hear the chime of distant sirens, can see the flicker of lights flash against curtained windows. \u000a\u000aI knew they would come back. I knew I had to. \u000a\u000aOn the table there is a revolver. \u000a\u000a[[None of this has felt real.|Conclusion]]
+VI rest. The room is quiet, the wind outside still. I can hear the chime of distant sirens, can see the flicker of lights flash against curtained windows. \u000a\u000aI knew they would come back. I knew I had to. \u000a\u000aOn the table there is a revolver. \u000a\u000a[[None of this has felt real.|Conclusion]]
 p1244
 sg21
 VStudy
@@ -3963,9 +3963,9 @@ g24
 ((I2014
 I1
 I26
-I14
-I50
-I56
+I16
+I44
+I43
 I6
 I26
 I0
@@ -4009,7 +4009,7 @@ Tiddler
 p1260
 (dp1261
 g19
-VIt isn't til I reach the kitchen that I realize I've followed a trail of blood. \u000a\u000aI wonder if I could forgive this. If I move past this violence. I know that I shouldn't. \u000a\u000a[[On the table is a folded newspaper.|newspaper]]\u000a[[I move on. The blood did not start here.|Study 2]]
+VIt isn't til I reach the kitchen that I realize I've followed a trail of blood. \u000a\u000aI wonder if I could forgive this. If I could move past this violence. I know that I shouldn't. \u000a\u000a[[On the table is a folded newspaper.|newspaper]]\u000a[[I move on. The blood did not start here.|Study 2]]
 p1262
 sg21
 VKitchen
@@ -4019,9 +4019,9 @@ g24
 ((I2014
 I1
 I26
-I14
-I53
-I53
+I16
+I50
+I39
 I6
 I26
 I0
@@ -4175,7 +4175,7 @@ Tiddler
 p1313
 (dp1314
 g19
-VShe hadn't deserved this. No one would've deserved this. \u000a\u000aThis hadn't been the cure for a broken heart. A death never is. But this whole thing, it hadn't been about blame. \u000a\u000a[[I can't find blame here. But maybe forgiveness.|Conservatory 2]]
+VShe hadn't deserved this. No one would've deserved this. \u000a\u000aThis hadn't been the cure for a broken heart. Death never is. But this whole thing, it hadn't been about blame. \u000a\u000a[[I can't find blame here, but forgiveness.|Conservatory 2]]
 p1315
 sg21
 VLounge 2
@@ -4185,9 +4185,9 @@ g24
 ((I2014
 I1
 I26
-I14
-I54
-I26
+I16
+I51
+I37
 I6
 I26
 I0
@@ -4231,7 +4231,7 @@ Tiddler
 p1331
 (dp1332
 g19
-VI loved this room. The fresh air, the green plants. It was here that I had felt alive. The blood ended here, a [[lead pipe|leadpipe2]] buried in the brush near one of the plants. \u000a\u000a[[The violence here was done. Everything was done.|Conclusion2]]
+VI loved this room. The fresh air, the green plants. It was here that I felt alive. The blood ended here, a [[lead pipe|leadpipe2]] buried in the brush near one of the plants. \u000a\u000a[[The violence here was done. Everything was done.|Conclusion2]]
 p1333
 sg21
 VConservatory 2
@@ -4241,9 +4241,9 @@ g24
 ((I2014
 I1
 I26
-I15
+I16
 I50
-I1
+I56
 I6
 I26
 I0
@@ -4334,14 +4334,14 @@ I00
 sg13
 (lp1365
 F1528.6666666666665
-aF576.3333333333334
+aF574.6666666666667
 asg15
 (itiddlywiki
 Tiddler
 p1366
 (dp1367
 g19
-VThere was a cold draft in the room, and far off sirens rang. It didn't matter. There was little else that could be done. \u000a\u000aI didn't know why they had come back here, after what they'd done. \u000a\u000a[[A journal rested on the table, a large "A" on the cover.|journal2]]\u000a[[I walked to the Conservatory.|Conservatory 3]]
+VThere is a cold draft in the room. Far off sirens ring. It doesn't matter. There is little else that can be done. \u000a\u000aI don't know why they came back here, after what they did.\u000a\u000a[[A journal rests on the table, a large "A" on the cover.|journal2]]\u000a[[I walk to the Conservatory.|Conservatory 3]]
 p1368
 sg21
 VLounge3
@@ -4351,9 +4351,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I50
-I22
+I16
+I53
+I32
 I6
 I26
 I0
