@@ -5,7 +5,7 @@ V/Users/bengold/git/GGJ14GetAClue/build/GetAClue/GetAClueTwine.html
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Amanda\\Desktop\\GGJ14GetAClue\\twine\\GGJ14ClueJamGameD.tws'
+V/Users/bengold/git/GGJ14GetAClue/twine/GGJ14ClueJamGameD.tws
 p4
 sS'target'
 p5
@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I00
+I01
 sS'pos'
 p13
 (lp14
@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<unity_load "GetAClue.unity3d">>\u000a<<silently>>\u000a<<set $height_tall = "no">>\u000a<<set $glasses = "no">>\u000a<<set $color_red = "no">>\u000a<<set $color_blue = "no">>\u000a<<set $age_old = "no">>\u000a<<set $murderer = 0>>\u000a<<set $victim = 0>>\u000a<<set $detective = 0>>\u000a\u000a<<endsilently>>\u000a\u000aThe room ahead is quiet, a cavern of warm air that balances out the chill at my back. \u000a\u000a[[My coat hangs heavy on my shoulders. My fingers find the edge of a coat rack|Question About Height]]
+V<<unity_load "assets/GetAClue.unity3d">>\u000a<<silently>>\u000a<<set $height_tall = "no">>\u000a<<set $glasses = "no">>\u000a<<set $color_red = "no">>\u000a<<set $color_blue = "no">>\u000a<<set $age_old = "no">>\u000a<<set $murderer = 0>>\u000a<<set $victim = 0>>\u000a<<set $detective = 0>>\u000a\u000a<<endsilently>>\u000a\u000aThe room ahead is quiet, a cavern of warm air that balances out the chill at my back. \u000a\u000a[[My coat hangs heavy on my shoulders. My fingers find the edge of a coat rack|Question About Height]]
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2014
 I1
 I26
-I15
-I25
-I7
+I17
+I19
+I31
 I6
 I26
 I0
@@ -2356,7 +2356,7 @@ tp745
 Rp746
 sbsa(dp747
 g12
-I01
+I00
 sg13
 (lp748
 F472.66666666666674
@@ -4777,7 +4777,7 @@ Tiddler
 p1504
 (dp1505
 g19
-V//requires jQuery\u000a\u000a// Also create a blank passage with the tag 'empty' on it.\u000a\u000avar emptyPassageName = tale.lookup('tags', 'empty')[0].title;\u000avar roomPassages = tale.lookup('tags', 'room');\u000a\u000aprerender.twineGang = function(div) {\u000a  if (haveTwineGang()) {\u000a    TwineGang.arrive(this.title);\u000a  }\u000a};\u000a\u000apostrender.overrideRoomLinks = function(div) {\u000a  var divClone = div.cloneNode(true);\u000a  jQuery(divClone).insertAfter(div);\u000a  jQuery(div).remove();\u000a  div = divClone;\u000a\u000a  jQuery(div).find('a.internalLink').each(function(_idx, el) {\u000a    var passageName = el.getAttribute('id');\u000a    var passage = tale.get(passageName);\u000a    var isRoom = checkIsRoom(passage);\u000a    var roomName = getRoomName(passage);\u000a    var $el = jQuery(el);\u000a\u000a    $el.on('click', function() {\u000a      if (haveTwineGang()) {\u000a        TwineGang.click(passageName);\u000a      }\u000a      $el.trigger('unity_actions');\u000a    });\u000a\u000a    $el.on('unity_actions', function() {\u000a      if (isRoom && haveUnity()) {\u000a        state.display(emptyPassageName);\u000a        Unity.SendMessage('NewRoom', roomName);\u000a      } else {\u000a        state.display(passageName);\u000a      }\u000a    });\u000a  });\u000a};\u000a\u000a\u000afunction haveTwineGang() {\u000a  return typeof TwineGang !== 'undefined' && TwineGang;\u000a}\u000a\u000afunction haveUnity() {\u000a  return typeof Unity !== 'undefined' && Unity;\u000a}\u000a\u000afunction checkIsRoom(passage) {\u000a  var isRoom = false;\u000a  passage.tags.forEach(function(tag) {\u000a    if (tag === 'room') {\u000a      isRoom = true;\u000a    }\u000a  });\u000a  return isRoom;\u000a}\u000a\u000afunction getRoomName(passage) {\u000a  var roomName = '';\u000a  passage.tags.forEach(function(tag) {\u000a    if (tag.match(/^room_/)) {\u000a      roomName = tag.replace(/^room_/, '');\u000a    }\u000a  });\u000a  return roomName;\u000a}\u000a\u000amacros.lookAt = {\u000a	handler: function (place, macroName, params) {\u000a		if (haveUnity()) {\u000a			Unity.SendMessage('LookAt', params[0]);\u000a		}\u000a	}\u000a}
+V//requires jQuery\u000a\u000a// Also create a blank passage with the tag 'empty' on it.\u000a\u000avar emptyPassageName = tale.lookup('tags', 'empty')[0].title;\u000avar roomPassages = tale.lookup('tags', 'room');\u000a\u000aprerender.twineGang = function(div) {\u000a  if (haveTwineGang()) {\u000a    TwineGang.arrive(this.title);\u000a  }\u000a};\u000a\u000apostrender.overrideRoomLinks = function(div) {\u000a  var divClone = div.cloneNode(true);\u000a  jQuery(divClone).insertAfter(div);\u000a  jQuery(div).remove();\u000a  div = divClone;\u000a\u000a  jQuery(div).find('a.internalLink').each(function(_idx, el) {\u000a    var passageName = el.getAttribute('id');\u000a    var passage = tale.get(passageName);\u000a    var isRoom = checkIsRoom(passage);\u000a    var roomName = getRoomName(passage);\u000a    var $el = jQuery(el);\u000a\u000a    $el.on('click', function() {\u000a      if (haveTwineGang()) {\u000a        TwineGang.click(passageName);\u000a      }\u000a      $el.trigger('unity_actions');\u000a    });\u000a\u000a    $el.on('unity_actions', function() {\u000a      if (isRoom && haveUnity()) {\u000a        state.display(emptyPassageName);\u000a        Unity.SendMessage('NewRoom', roomName + "|" + passage.title);\u000a      } else {\u000a        state.display(passageName);\u000a      }\u000a    });\u000a  });\u000a};\u000a\u000a\u000afunction haveTwineGang() {\u000a  return typeof TwineGang !== 'undefined' && TwineGang;\u000a}\u000a\u000afunction haveUnity() {\u000a  return typeof Unity !== 'undefined' && Unity;\u000a}\u000a\u000afunction checkIsRoom(passage) {\u000a  var isRoom = false;\u000a  passage.tags.forEach(function(tag) {\u000a    if (tag.match(/^room_/)) {\u000a      isRoom = true;\u000a    }\u000a  });\u000a  return isRoom;\u000a}\u000a\u000afunction getRoomName(passage) {\u000a  var roomName = '';\u000a  passage.tags.forEach(function(tag) {\u000a    if (tag.match(/^room_/)) {\u000a      roomName = tag.replace(/^room_/, '');\u000a    }\u000a  });\u000a  return roomName;\u000a}\u000a\u000amacros.lookAt = {\u000a	handler: function (place, macroName, params) {\u000a		if (haveUnity()) {\u000a			Unity.SendMessage('LookAt', params[0]);\u000a		}\u000a	}\u000a}
 p1506
 sg21
 Vmacros
@@ -4787,9 +4787,9 @@ g24
 ((I2014
 I1
 I26
-I15
-I23
-I0
+I17
+I2
+I20
 I6
 I26
 I0
