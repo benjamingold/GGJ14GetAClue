@@ -25,5 +25,6 @@ Models and Assets:
 - Revit cabinet family and countertop with sink
 - Book shelf - highly adjustable by NancyHKA - http://www.revitcity.com/downloads.php?action=view&object_id=10160
 - Book parametric by Bayonle - http://www.revitcity.com/downloads.php?action=view&object_id=14278
+- shanty town brush by Unity Technologies - https://www.assetstore.unity3d.com/#/content/41
 - others modeled by shylo shepherd
 
