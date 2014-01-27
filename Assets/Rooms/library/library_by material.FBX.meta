@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 2a5306c6c27b5724194ae5087f82a1b7
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 1 aros cuaderno
+    100002: 1 hojas cuaderno
+    100004: 1 Pastas cuaderno
+    100006: _book1
+    100008: _book2
+    100010: _book3
+    100012: _book4
+    100014: _Floor Wood
+    100016: _Wall Blue Stripes
+    100018: _white
+    100020: _wood
+    100022: Base Estatua2
+    100024: BMCD2AR3\Solid Materials \Flat Colors\Smooth\White
+    100026: BMCD2AR3\Solid Materials \Matte\Textured\Gray, medium
+    100028: Book cover
+    100030: David Statue - Material
+    100032: David Statue - Material_MeshPart0
+    100034: David Statue - Material_MeshPart1
+    100036: Est__tua2
+    100038: Est__tua2_MeshPart0
+    100040: Est__tua2_MeshPart1
+    100042: frame
+    100044: Generic
+    100046: //RootNode
+    100048: Olhos_Boca Estatua2
+    100050: Page
+    100052: Plastic, Opaque Black
+    100054: Roman_Statue_8171 Roman_Statue_8171 [240484]_1
+    100056: Roman_Statue_8171 Roman_Statue_8171 [240567]_2
+    100058: Roman_Statue_8171 Roman_Statue_8171 [242943]_3
+    100060: Roman_Statue_8171 Roman_Statue_8171 [242944]_4
+    100062: satin
+    100064: Textile - Slate Blue
+    400000: 1 aros cuaderno
+    400002: 1 hojas cuaderno
+    400004: 1 Pastas cuaderno
+    400006: _book1
+    400008: _book2
+    400010: _book3
+    400012: _book4
+    400014: _Floor Wood
+    400016: _Wall Blue Stripes
+    400018: _white
+    400020: _wood
+    400022: Base Estatua2
+    400024: BMCD2AR3\Solid Materials \Flat Colors\Smooth\White
+    400026: BMCD2AR3\Solid Materials \Matte\Textured\Gray, medium
+    400028: Book cover
+    400030: David Statue - Material
+    400032: David Statue - Material_MeshPart0
+    400034: David Statue - Material_MeshPart1
+    400036: Est__tua2
+    400038: Est__tua2_MeshPart0
+    400040: Est__tua2_MeshPart1
+    400042: frame
+    400044: Generic
+    400046: //RootNode
+    400048: Olhos_Boca Estatua2
+    400050: Page
+    400052: Plastic, Opaque Black
+    400054: Roman_Statue_8171 Roman_Statue_8171 [240484]_1
+    400056: Roman_Statue_8171 Roman_Statue_8171 [240567]_2
+    400058: Roman_Statue_8171 Roman_Statue_8171 [242943]_3
+    400060: Roman_Statue_8171 Roman_Statue_8171 [242944]_4
+    400062: satin
+    400064: Textile - Slate Blue
+    2300000: 1 aros cuaderno
+    2300002: 1 hojas cuaderno
+    2300004: 1 Pastas cuaderno
+    2300006: _book1
+    2300008: _book2
+    2300010: _book3
+    2300012: _book4
+    2300014: _Floor Wood
+    2300016: _Wall Blue Stripes
+    2300018: _white
+    2300020: _wood
+    2300022: Base Estatua2
+    2300024: BMCD2AR3\Solid Materials \Flat Colors\Smooth\White
+    2300026: BMCD2AR3\Solid Materials \Matte\Textured\Gray, medium
+    2300028: Book cover
+    2300030: David Statue - Material_MeshPart0
+    2300032: David Statue - Material_MeshPart1
+    2300034: Est__tua2_MeshPart0
+    2300036: Est__tua2_MeshPart1
+    2300038: frame
+    2300040: Generic
+    2300042: Olhos_Boca Estatua2
+    2300044: Page
+    2300046: Plastic, Opaque Black
+    2300048: satin
+    2300050: Textile - Slate Blue
+    3300000: 1 aros cuaderno
+    3300002: 1 hojas cuaderno
+    3300004: 1 Pastas cuaderno
+    3300006: _book1
+    3300008: _book2
+    3300010: _book3
+    3300012: _book4
+    3300014: _Floor Wood
+    3300016: _Wall Blue Stripes
+    3300018: _white
+    3300020: _wood
+    3300022: Base Estatua2
+    3300024: BMCD2AR3\Solid Materials \Flat Colors\Smooth\White
+    3300026: BMCD2AR3\Solid Materials \Matte\Textured\Gray, medium
+    3300028: Book cover
+    3300030: David Statue - Material_MeshPart0
+    3300032: David Statue - Material_MeshPart1
+    3300034: Est__tua2_MeshPart0
+    3300036: Est__tua2_MeshPart1
+    3300038: frame
+    3300040: Generic
+    3300042: Olhos_Boca Estatua2
+    3300044: Page
+    3300046: Plastic, Opaque Black
+    3300048: satin
+    3300050: Textile - Slate Blue
+    4300000: _Wall Blue Stripes
+    4300002: _wood
+    4300004: _Floor Wood
+    4300006: _white
+    4300008: _book1
+    4300010: _book4
+    4300012: _book2
+    4300014: _book3
+    4300016: Generic
+    4300018: satin
+    4300020: frame
+    4300022: Base Estatua2
+    4300024: Est__tua2_MeshPart0
+    4300026: Est__tua2_MeshPart1
+    4300028: Olhos_Boca Estatua2
+    4300030: David Statue - Material_MeshPart0
+    4300032: David Statue - Material_MeshPart1
+    4300034: Page
+    4300036: Book cover
+    4300038: BMCD2AR3\Solid Materials \Flat Colors\Smooth\White
+    4300040: BMCD2AR3\Solid Materials \Matte\Textured\Gray, medium
+    4300042: 1 aros cuaderno
+    4300044: 1 hojas cuaderno
+    4300046: 1 Pastas cuaderno
+    4300048: Plastic, Opaque Black
+    4300050: Textile - Slate Blue
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
