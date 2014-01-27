@@ -5,7 +5,7 @@
                (location.protocol + '//' + location.hostname +
                    (location.port ? ':' + location.port : ''));
     endpoint = endpoint + '/rooms';
-    var socket = io.connect(endpoint);
+    var socket = io.connect(endpoint, {reconnect: false});
     this.roomName = '';
 
     socket.on('connect', function(){

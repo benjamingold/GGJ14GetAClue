@@ -61,7 +61,7 @@ function switchRooms(socket, roomName, oldRoom) {
     rooms[oldRoom]--;
   }
 
-  if (rooms[roomName]) {
+  if (roomName in rooms && rooms[roomName] > 0) {
     // Join as client
     socket.join(roomName);
     rooms[roomName]++;
