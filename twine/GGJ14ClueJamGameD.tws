@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<unity_load "assets/GetAClue.unity3d">>\u000a<<silently>>\u000a<<set $height_tall = "no">>\u000a<<set $glasses = "no">>\u000a<<set $color_red = "no">>\u000a<<set $color_blue = "no">>\u000a<<set $age_old = "no">>\u000a<<set $murderer = 0>>\u000a<<set $victim = 0>>\u000a<<set $detective = 0>>\u000a\u000a<<endsilently>>\u000a\u000aThe room ahead is quiet, a cavern of warm air that balances out the chill at my back. \u000a\u000a[[My coat hangs heavy on my shoulders. My fingers find the edge of a coat rack|Question About Height]]
+V<<unity_load "assets/GetAClue.unity3d">>\u000a<<silently>>\u000a<<set $height_tall = "no">>\u000a<<set $glasses = "no">>\u000a<<set $color_red = "no">>\u000a<<set $color_blue = "no">>\u000a<<set $age_old = "no">>\u000a<<set $murderer = 0>>\u000a<<set $victim = 0>>\u000a<<set $detective = 0>>\u000a\u000a<<endsilently>>\u000a\u000aThe room ahead is quiet, a cavern of warm air that balances out the chill at my back. \u000a\u000a[[My coat hangs heavy on my shoulders. My fingers find the edge of a coat rack.|Question About Height]]
 p20
 sS'title'
 p21
