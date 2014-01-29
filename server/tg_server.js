@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 
 io.of('/rooms').on('connection', function(socket) {
   var roomName = createRoomName();
-  switchRooms(socket, roomName);
+  joinRoom(socket, roomName);
 
   socket.on('click', function(id) {
     socket.broadcast.to(roomName).emit('click', id);
@@ -32,35 +32,45 @@ io.of('/rooms').on('connection', function(socket) {
   });
 
   socket.on('join', function(newRoom, callback) {
-    // Servers can't switch and new room has to exist.
+    callback = callback || function(){};
+
+    // New room has to exist.
     if (!(newRoom in rooms)) {
-      if (typeof callback === 'function') {
-        callback(false);
-      }
+      callback(false);
       return;
     }
 
-    switchRooms(socket, newRoom, roomName);
+    switchRooms(socket, roomName, newRoom);
     roomName = newRoom;
     callback(true);
   });
 
   socket.on('disconnect', function() {
-    rooms[roomName]--;
+    leaveRoom(socket, roomName);
   });
 });
 
+// Build a room number like '867-5309'
 function createRoomName() {
-  // return '5';
-  return faker.PhoneNumber.phoneNumberFormat(6).replace(/\d-\d{3}-/, '');
+  return faker.PhoneNumber.phoneNumberFormat(6).split('-').splice(2).join('-');
 }
 
-function switchRooms(socket, roomName, oldRoom) {
-  if (oldRoom) {
-    socket.leave(oldRoom);
-    rooms[oldRoom]--;
-  }
+function switchRooms(socket, oldRoom, newRoom) {
+  leaveRoom(socket, oldRoom);
+  joinRoom(socket, newRoom);
+}
 
+function leaveRoom(socket, roomName) {
+  socket.leave(roomName);
+  rooms[roomName]--;
+  if (rooms[roomName] > 0) {
+    io.of('/rooms').in(roomName).emit('clientCount', rooms[roomName]);
+  } else {
+    delete rooms[roomName];
+  }
+}
+
+function joinRoom(socket, roomName) {
   if (roomName in rooms && rooms[roomName] > 0) {
     // Join as client
     socket.join(roomName);
@@ -73,7 +83,8 @@ function switchRooms(socket, roomName, oldRoom) {
     socket.isServer = true;
   }
 
-  socket.emit('id', roomName);
+  socket.emit('newRoom', roomName);
+  io.of('/rooms').in(roomName).emit('clientCount', rooms[roomName]);
 }
 
 var port = process.env.PORT || 3000;
