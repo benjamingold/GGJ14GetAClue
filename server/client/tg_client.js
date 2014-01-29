@@ -15,7 +15,7 @@
     socket.on('id', function(room) {
       self.roomName = room;
       self.trigger('new_room', room);
-      // console.log('Connect another browser for remote control: ' + endpoint.replace(/rooms/, '?room=' + room));
+      console.log('Connect another browser for remote control: ' + endpoint.replace(/rooms/, '?room=' + room));
     });
 
     socket.on('click', function(id) {
