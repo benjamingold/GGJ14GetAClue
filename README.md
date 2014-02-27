@@ -3,7 +3,7 @@ Get a Clue
 
 Mystery game that adapts to your play.
 
-Twine game built in 48 hours for the Global Game Jam 2014.
+Twine game built in 48 hours for the [Global Game Jam 2014](http://globalgamejam.org/2014/games/get-clue).
 
 ### [Play online!](http://get-a-clue.herokuapp.com)
 
