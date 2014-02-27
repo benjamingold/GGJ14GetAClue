@@ -5,7 +5,7 @@ Mystery game that adapts to your play.
 
 Twine game built in 48 hours for the Global Game Jam 2014.
 
-[Play online!](http://get-a-clue.herokuapp.com)
+### [Play online!](http://get-a-clue.herokuapp.com)
 
 Features:
 - Twine
